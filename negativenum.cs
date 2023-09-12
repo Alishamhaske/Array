@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace oopfirstclass_program.Array
+namespace oopfirstclass_program.Arraypro
 {
     public class negativenum
     {
@@ -21,14 +21,19 @@ namespace oopfirstclass_program.Array
             }
             for(int i=0;i<negative.Length;i++)
             {
-                if (negative[i]<0)
+                if (negative[i]>0)
                 {
                     count++;
-                    Console.WriteLine($" neagtive number: {negative[i]}");
+                    Console.WriteLine($"negative number is {negative[i]}");
 
                 }
-               
+                else
+                {
+                    Console.WriteLine($"postive number {negative[i]}");
+                }
             }
+
+           
             Console.WriteLine("total negative number: " + count);
 
         }

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace oopfirstclass_program.Array
+namespace oopfirstclass_program.Arraypro
 {
     public class duplicate
     {
@@ -26,7 +26,7 @@ namespace oopfirstclass_program.Array
                     {
                         isvisited = true;
                         break;
-                     
+                       
                     }
 
                 }

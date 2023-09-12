@@ -6,7 +6,7 @@ using System.Linq;
 using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
-namespace oopfirstclass_program.Array
+namespace oopfirstclass_program.Arraypro
 {
     public class negative
     {
@@ -15,19 +15,27 @@ namespace oopfirstclass_program.Array
         static void Main(string[] args)
         {
             int[] n3 = new int[10] { 1, 2, 3, -5, -3, 9, -43, -21, 7, 10 };
-            int count=0;
-            for(int i=0;i<n3.Length;i++)
+            //int count=0;
+            for (int i = 0; i < n3.Length; i++)
             {
-               
-               if (n3[i]<0)
-               {
-                    count++;
+
+                if (n3[i] < 0)
+                {
+                  //  count++;
                     Console.WriteLine(n3[i]);
 
                 }
+
+            }
+            for(int i=0;i<n3.Length; i++)
+            { 
+                if (n3[i]>0)
+                {
+                    Console.WriteLine(n3[i]);
+                }
                 
             }
-            Console.WriteLine("total count of negative value: "+ count);
+            //Console.WriteLine("total count of negative value: "+ count);
 
         }
     }
